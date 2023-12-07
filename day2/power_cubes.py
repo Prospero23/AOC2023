@@ -1,4 +1,4 @@
-def solver(game: str):
+def solver(game: str) -> int:
     game_data = game.split(":")[1]
     hands = game_data.split(";")
 
